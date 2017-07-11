@@ -1,0 +1,19 @@
+
+npm init - cria package.json
+npm run dev - rodar a aplicação
+mkdir novapasta && cd novapasta - cria uma nova pasta e abre a pasta
+
+//executa comandos de instalação para o projeto
+npm install express body-parser mongoose node-restful mongoose-paginate lodash express-query-int pm2 --save
+npm install nodemon --save-dev
+
+angular-toastr - mensagens pra aplicação angular
+angular-ui-router - para a parte de roteamento e navegação da aplicação
+angular-fontawesome - parte de ícone
+babel-preset-es2015 - para a parte de anotação ECMScript / babel faz o transpaile para compatibilidade ES2015 dos browsers antigos.
+gulp-concat - para concatenar todos os arquivos.
+gulp-htmlmin - reduzir o html retirando os espaços em branco, minificar os arquivos html do projeto
+gulp-uglify - faz a mesma coisa do gulp-htmlmin só que para o javascript, minificar os arquivos e tirar os espaços em branco, mudar nomes de variáveis para deixar pequeno.
+gulp-uglifycss - faz a mesma coisa em arquivo css.
+gulp-watch - ficar monitorando os arquivos sempre que mudar, ele faz o processo de bild novamente, pede pro servidor fazer reload.
+gulp - Todo processo de bild usando o gulp, é um módulo do node fazedor de tarefas. mover arquivo de uma pasta pra outra, juntas dois arquivos em um arquivo só, tirar todos os espacos em brancos de um arquivo.
